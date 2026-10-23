@@ -1,5 +1,8 @@
 # 2D Advection-Diffusion Solver
-
+![Language](https://img.shields.io/badge/Language-MATLAB-blue)
+![Domain](https://img.shields.io/badge/Domain-CFD_%7C_Mass_Transport-orange)
+![Method](https://img.shields.io/badge/Method-Finite_Volume_(FVM)-success)
+![Scheme](https://img.shields.io/badge/Scheme-TVD_%7C_SOU-critical)
 A MATLAB-based Computational Fluid Dynamics (CFD) solver for the 2D transient advection-diffusion equation. 
 
 This project utilizes a cell-centered Finite Volume Method (FVM) with Forward Euler time integration. To prevent non-physical oscillations (numerical dispersion) near steep gradients, it implements a Second-Order Upwind (SOU) scheme coupled with selectable flux limiters (MC Limiter and Minmod).
