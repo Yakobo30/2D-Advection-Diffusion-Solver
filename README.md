@@ -22,6 +22,24 @@ This project utilizes a cell-centered Finite Volume Method (FVM) with Forward Eu
 4. Select your preferred flux limiter on line 18 (`limiterType = 'MC';` or `'minmod'`).
 5. Run the script. The script will automatically generate 3D surface plots and 1D cross-sectional slices of the initial and final concentration fields.
 
+## Results
+
+### Initial State
+**3D Distribution**
+![Initial Surface Plot](initial_surface.png)
+
+**1D Cross-Section (Y = 0.25)**
+![Initial Cross Section](initial_cross_section.png)
+
+---
+
+### Final State (After 1000 Time Steps)
+**3D Distribution**
+![Final Surface Plot](final_surface.png)
+
+**1D Cross-Section (Y = 0.75)**
+![Final Cross Section](final_cross_section.png)
+
 ## File Structure
 * `solveAdvectionDiffusion2D.m` - The core numerical solver function and limiter definitions.
 * `example_run.m` - The execution script containing grid setup, initial conditions, and visualization.
